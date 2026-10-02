@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🫶 My Kainu 💜</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffd6f6, #e5d0ff, #f8d9ff);
+      color: #5b285f;
+      overflow-x: hidden;
+    }
+
+    /* Floating Hearts */
+    .heart {
+      position: fixed;
+      bottom: -30px;
+      font-size: 25px;
+      animation: float 6s linear infinite;
+      opacity: 0.8;
+      z-index: 0;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+      }
+      20% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    .container {
+      position: relative;
+      z-index: 2;
+      max-width: 850px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      color: #8e3b9d;
+      text-shadow: 2px 2px 10px #ffffff;
+      animation: pop 1.5s ease;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-top: 15px;
+      color: #713778;
+    }
+
+    @keyframes pop {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .section {
+      background: rgba(255,255,255,0.65);
+      backdrop-filter: blur(10px);
+      margin: 25px 0;
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 8px 25px rgba(130, 60, 150, 0.18);
+      border: 1px solid rgba(255,255,255,0.7);
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #913b9d;
+      margin-bottom: 18px;
+      font-size: 28px;
+    }
+
+    .section p {
+      text-align: center;
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    .qualities {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .tag {
+      background: linear-gradient(135deg, #e9baff, #ffc9e9);
+      padding: 12px 18px;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(120,50,130,0.15);
+    }
+
+    .message {
+      font-size: 19px;
+      font-weight: 500;
+    }
+
+    .ending {
+      text-align: center;
+      padding: 50px 15px;
+    }
+
+    .ending h2 {
+      color: #8e3b9d;
+      font-size: 32px;
+    }
+
+    .ending p {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    .big-heart {
+      font-size: 65px;
+      animation: beat 1.2s infinite;
+      margin-bottom: 15px;
+    }
+
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #7b407f;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Floating Hearts -->
+  <div class="heart" style="left:10%; animation-delay:0s;">💗</div>
+  <div class="heart" style="left:25%; animation-delay:2s;">💜</div>
+  <div class="heart" style="left:45%; animation-delay:4s;">💕</div>
+  <div class="heart" style="left:65%; animation-delay:1s;">💖</div>
+  <div class="heart" style="left:85%; animation-delay:3s;">💜</div>
+
+  <div class="container">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="big-heart">🫶</div>
+
+      <h1>My Kainu 💜</h1>
+
+      <p>
+        Cousin by relation,<br>
+        Sister by heart,<br>
+        Bestie by choice. 🌷
+      </p>
+    </section>
+
+    <!-- Story -->
+    <section class="section">
+      <h2>🌸 Our Story 🌸</h2>
+
+      <p>
+        Hum dono bachpan se saath hain. 🥹💗
+        Itne saalon mein humne saath mein bohot saari
+        memories banayi hain — hasi, masti, pagalpan
+        aur choti-choti nok-jhok bhi. 😂💕
+
+        <br><br>
+
+        Kainu mere liye sirf meri cousin nahi hai.
+        Woh meri friend bhi hai, meri sister bhi hai,
+        aur meri bestie bhi. 🫶💜
+        
+        <br><br>
+
+        Bachpan se lekar aaj tak, hamara bond mere liye
+        hamesha special rahega. 🌷✨
+      </p>
+    </section>
+
+    <!-- Qualities -->
+    <section class="section">
+      <h2>💜 Why My Kainu Is Special 💜</h2>
+
+      <div class="qualities">
+        <div class="tag">💗 Caring</div>
+        <div class="tag">😂 Pagal</div>
+        <div class="tag">🫶 Supportive</div>
+        <div class="tag">🌸 Cute</div>
+        <div class="tag">💜 Bestie</div>
+        <div class="tag">👭 Sister</div>
+      </div>
+    </section>
+
+    <!-- Cute Message -->
+    <section class="section">
+      <h2>💌 A Little Message For You</h2>
+
+      <p class="message">
+        Dear Kainu 🫶💜
+        <br><br>
+
+        Thank you for being such an important part of my life.
+        Tum mere liye sirf ek cousin nahi ho.
+        Tum meri childhood partner, meri friend,
+        meri sister aur meri bestie ho. 🥹🌷
+
+        <br><br>
+
+        Tumhara caring aur supportive nature mujhe
+        hamesha special feel karata hai.
+        Aur tumhara pagalpan toh alag hi level ka hai. 😂💗
+
+        <br><br>
+
+        Bas aise hi hamesha meri Kainu rehna. 🫶
+        Hamari bonding hamesha aisi hi cute aur crazy rahe. 💜✨
+
+        <br><br>
+
+        <b>Love you, My Kainu! 💗🌙</b>
+      </p>
+    </section>
+
+    <!-- Ending -->
+    <section class="ending">
+      <div class="big-heart">💗</div>
+
+      <h2>Forever My Kainu 🫶</h2>
+
+      <p>
+        Childhood memories se lekar future ki
+        countless memories tak... 🌷✨
+        <br>
+        <b>Always us. 💜</b>
+      </p>
+    </section>
+
+    <footer>
+      Made with lots of love for My Kainu 💗✨
+    </footer>
+
+  </div>
+
+</body>
+</html>
